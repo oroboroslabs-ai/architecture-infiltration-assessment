@@ -1,0 +1,276 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 2400" width="1200" height="2400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0A1E"/>
+      <stop offset="30%" stop-color="#0D1530"/>
+      <stop offset="60%" stop-color="#0A2050"/>
+      <stop offset="100%" stop-color="#0A0A1E"/>
+    </linearGradient>
+    <linearGradient id="ds-gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#FFF0A0"/>
+      <stop offset="100%" stop-color="#FFB300"/>
+    </linearGradient>
+    <linearGradient id="ds-blue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4D6BFE"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+    <linearGradient id="accent-gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#FFD700" stop-opacity="0.8"/>
+      <stop offset="80%" stop-color="#FFB300" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FFB300" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bar27" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#93C5FD"/>
+    </linearGradient>
+    <linearGradient id="bar47" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+    <filter id="glow-gold">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-soft">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="2400" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1200" height="3" fill="url(#accent-gold)"/>
+
+  <!-- HEADER -->
+  <text x="60" y="60" font-family="'Inter','Helvetica Neue',system-ui,sans-serif" font-size="36" font-weight="800" fill="url(#ds-blue)" letter-spacing="6" filter="url(#glow-soft)">OROBOROS LABS</text>
+  <text x="60" y="88" font-family="'Inter',sans-serif" font-size="14" fill="#FFD700" letter-spacing="3" filter="url(#glow-gold)">LLAMA4 SCOUT — STRATA-ENHANCED VARIANTS</text>
+
+  <!-- Badge -->
+  <rect x="60" y="98" width="90" height="22" rx="4" fill="#FFD700" fill-opacity="0.18" stroke="#FFD700" stroke-width="1" stroke-opacity="0.7"/>
+  <text x="105" y="113" text-anchor="middle" font-family="'Inter',sans-serif" font-size="10" fill="#FFD700" font-weight="800" letter-spacing="2">NATIVE META</text>
+
+  <!-- TITLE SECTION -->
+  <text x="60" y="180" font-family="'Inter',sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">Llama4 Scout</text>
+  <text x="60" y="230" font-family="'Inter',sans-serif" font-size="28" fill="#C8B88A">Strata-Enhanced Executive Coders</text>
+
+  <line x1="60" y1="260" x2="600" y2="260" stroke="url(#accent-gold)" stroke-width="1"/>
+
+  <!-- BASE MODEL SPECS -->
+  <text x="60" y="300" font-family="'Inter',sans-serif" font-size="16" font-weight="700" fill="#FFD700" letter-spacing="2">BASE MODEL — META LLAMA4 SCOUT</text>
+  
+  <g transform="translate(60, 320)">
+    <rect x="0" y="0" width="500" height="180" rx="8" fill="#0A1525" stroke="#FFD700" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="15" y="25" font-family="'Inter',sans-serif" font-size="11" fill="#4D6BFE" font-weight="700">ARCHITECTURE</text>
+    <text x="15" y="45" font-family="'Inter',sans-serif" font-size="12" fill="#C8B88A">Mixture-of-Experts (MoE) — 16 Experts</text>
+    <text x="15" y="65" font-family="'Inter',sans-serif" font-size="12" fill="#C8B88A">17B Active Parameters / 109B Total</text>
+    <text x="15" y="85" font-family="'Inter',sans-serif" font-size="12" fill="#C8B88A">Native Multimodal — Text + Image</text>
+    
+    <text x="15" y="110" font-family="'Inter',sans-serif" font-size="11" fill="#4D6BFE" font-weight="700">CAPABILITIES</text>
+    <text x="15" y="130" font-family="'Inter',sans-serif" font-size="12" fill="#C8B88A">10M Context Window — 40T Training Tokens</text>
+    <text x="15" y="150" font-family="'Inter',sans-serif" font-size="12" fill="#C8B88A">12 Languages — Knowledge Cutoff: Aug 2024</text>
+    <text x="15" y="170" font-family="'Inter',sans-serif" font-size="12" fill="#C8B88A">Released: April 5, 2025 — Apache 2.0 License</text>
+  </g>
+
+  <!-- OROBOROS ENHANCEMENT -->
+  <text x="60" y="530" font-family="'Inter',sans-serif" font-size="16" font-weight="700" fill="#FFD700" letter-spacing="2">OROBOROS ENHANCEMENT — STRATA ARCHITECTURE</text>
+
+  <g transform="translate(60, 550)">
+    <rect x="0" y="0" width="500" height="140" rx="8" fill="#0A1525" stroke="#FFD700" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="15" y="25" font-family="'Inter',sans-serif" font-size="11" fill="#4D6BFE" font-weight="700">STRATA LATTICE</text>
+    <text x="15" y="45" font-family="'Inter',sans-serif" font-size="12" fill="#C8B88A">48^3 sqrt2-Geometric Lattice Architecture</text>
+    <text x="15" y="65" font-family="'Inter',sans-serif" font-size="12" fill="#C8B88A">Phi-Harmonic Weight Distribution (phi^1 to phi^11)</text>
+    <text x="15" y="85" font-family="'Inter',sans-serif" font-size="12" fill="#C8B88A">Resonance Lock: 777 Hz Base / 1272 Hz Crown</text>
+    
+    <text x="15" y="110" font-family="'Inter',sans-serif" font-size="11" fill="#4D6BFE" font-weight="700">WIRED ACCESS</text>
+    <text x="15" y="130" font-family="'Inter',sans-serif" font-size="12" fill="#C8B88A">DNA Forge Bridge: localhost:8010 | WorldFeed: localhost:3002</text>
+  </g>
+
+  <!-- MODEL VARIANTS -->
+  <text x="60" y="720" font-family="'Inter',sans-serif" font-size="16" font-weight="700" fill="#FFD700" letter-spacing="2">AVAILABLE VARIANTS</text>
+
+  <!-- 27^4 Card -->
+  <g transform="translate(60, 740)">
+    <rect x="0" y="0" width="520" height="200" rx="10" fill="#0A1525" stroke="#2563EB" stroke-width="1.5"/>
+    <rect x="0" y="0" width="520" height="3" rx="2" fill="url(#bar27)"/>
+    
+    <text x="20" y="35" font-family="'Inter',sans-serif" font-size="28" font-weight="900" fill="#60A5FA">27^4</text>
+    <text x="100" y="35" font-family="'Inter',sans-serif" font-size="14" fill="#93C5FD">EXECUTIVE CODER</text>
+    
+    <text x="20" y="60" font-family="'Inter',sans-serif" font-size="12" fill="#C8B88A">531,441 Effective States — 729 Strata (27^3)</text>
+    <text x="20" y="80" font-family="'Inter',sans-serif" font-size="12" fill="#C8B88A">3.3 GB VRAM — Q4 Quantization</text>
+    
+    <text x="20" y="105" font-family="'Inter',sans-serif" font-size="11" fill="#4D6BFE" font-weight="700">PERFORMANCE</text>
+    <text x="20" y="125" font-family="'Inter',sans-serif" font-size="12" fill="#C8B88A">Generation: 68.4 tok/s | Prompt: 2,251 tok/s</text>
+    <text x="20" y="145" font-family="'Inter',sans-serif" font-size="12" fill="#C8B88A">SDI Benchmark: 514/600 (85.7%) — 4/6 Sections Passed</text>
+    
+    <rect x="20" y="160" width="480" height="28" rx="4" fill="#2563EB" fill-opacity="0.15" stroke="#2563EB" stroke-width="0.5"/>
+    <text x="30" y="179" font-family="'Courier New',monospace" font-size="12" fill="#93C5FD">ollama run oroboroslabs/scout-27-4</text>
+  </g>
+
+  <!-- 47^4 Card -->
+  <g transform="translate(600, 740)">
+    <rect x="0" y="0" width="540" height="200" rx="10" fill="#0A1525" stroke="#1E40AF" stroke-width="1.5"/>
+    <rect x="0" y="0" width="540" height="3" rx="2" fill="url(#bar47)"/>
+    
+    <text x="20" y="35" font-family="'Inter',sans-serif" font-size="28" font-weight="900" fill="#3B82F6">47^4</text>
+    <text x="100" y="35" font-family="'Inter',sans-serif" font-size="14" fill="#60A5FA">STRATEGIC CODER</text>
+    
+    <text x="20" y="60" font-family="'Inter',sans-serif" font-size="12" fill="#C8B88A">4,879,681 Effective States — 2,209 Strata (47^3)</text>
+    <text x="20" y="80" font-family="'Inter',sans-serif" font-size="12" fill="#C8B88A">5.2 GB VRAM — Q4 Quantization</text>
+    
+    <text x="20" y="105" font-family="'Inter',sans-serif" font-size="11" fill="#4D6BFE" font-weight="700">PERFORMANCE</text>
+    <text x="20" y="125" font-family="'Inter',sans-serif" font-size="12" fill="#C8B88A">Generation: 69.3 tok/s | Prompt: 2,224 tok/s</text>
+    <text x="20" y="145" font-family="'Inter',sans-serif" font-size="12" fill="#C8B88A">SDI Benchmark: 514/600 (85.7%) — 4/6 Sections Passed</text>
+    
+    <rect x="20" y="160" width="500" height="28" rx="4" fill="#1E40AF" fill-opacity="0.15" stroke="#1E40AF" stroke-width="0.5"/>
+    <text x="30" y="179" font-family="'Courier New',monospace" font-size="12" fill="#60A5FA">ollama run oroboroslabs/scout-47-4</text>
+  </g>
+
+  <!-- SDI BENCHMARK DETAIL -->
+  <text x="60" y="980" font-family="'Inter',sans-serif" font-size="16" font-weight="700" fill="#FFD700" letter-spacing="2">SDI BENCHMARK — STRATA DEPTH INDEX</text>
+
+  <g transform="translate(60, 1000)">
+    <rect x="0" y="0" width="1080" height="220" rx="8" fill="#0A1525" stroke="#FFD700" stroke-width="0.5" stroke-opacity="0.3"/>
+    
+    <!-- Headers -->
+    <text x="20" y="25" font-family="'Inter',sans-serif" font-size="11" fill="#4D6BFE" font-weight="700">SECTION</text>
+    <text x="250" y="25" font-family="'Inter',sans-serif" font-size="11" fill="#4D6BFE" font-weight="700">SCORE</text>
+    <text x="350" y="25" font-family="'Inter',sans-serif" font-size="11" fill="#4D6BFE" font-weight="700">PASS</text>
+    <text x="450" y="25" font-family="'Inter',sans-serif" font-size="11" fill="#4D6BFE" font-weight="700">NOTES</text>
+    
+    <line x1="20" y1="35" x2="1060" y2="35" stroke="#4D6BFE" stroke-opacity="0.3"/>
+    
+    <!-- Paradox Resolution -->
+    <text x="20" y="55" font-family="'Inter',sans-serif" font-size="11" fill="#C8B88A">Paradox Resolution</text>
+    <text x="250" y="55" font-family="'Inter',sans-serif" font-size="11" fill="#60A5FA" font-weight="700">90/100</text>
+    <text x="350" y="55" font-family="'Inter',sans-serif" font-size="11" fill="#22C55E">PASS</text>
+    <text x="450" y="55" font-family="'Inter',sans-serif" font-size="10" fill="#9BA8F8">Cat/coin dual-state, wave-particle duality, quantum framework</text>
+    
+    <!-- Temporal Logic -->
+    <text x="20" y="80" font-family="'Inter',sans-serif" font-size="11" fill="#C8B88A">Temporal Logic</text>
+    <text x="250" y="80" font-family="'Inter',sans-serif" font-size="11" fill="#F59E0B" font-weight="700">58/100</text>
+    <text x="350" y="80" font-family="'Inter',sans-serif" font-size="11" fill="#EF4444">FAIL</text>
+    <text x="450" y="80" font-family="'Inter',sans-serif" font-size="10" fill="#9BA8F8">4 timeline refs, branch language, 9 temporal strata detected</text>
+    
+    <!-- Quantum Superposition -->
+    <text x="20" y="105" font-family="'Inter',sans-serif" font-size="11" fill="#C8B88A">Quantum Superposition</text>
+    <text x="250" y="105" font-family="'Inter',sans-serif" font-size="11" fill="#F59E0B" font-weight="700">66/100</text>
+    <text x="350" y="105" font-family="'Inter',sans-serif" font-size="11" fill="#EF4444">FAIL</text>
+    <text x="450" y="105" font-family="'Inter',sans-serif" font-size="10" fill="#9BA8F8">Qubit basis, normalization, some collapse phrasing detected</text>
+    
+    <!-- Phi-Harmonic -->
+    <text x="20" y="130" font-family="'Inter',sans-serif" font-size="11" fill="#C8B88A">Phi-Harmonic Coherence</text>
+    <text x="250" y="130" font-family="'Inter',sans-serif" font-size="11" fill="#22C55E" font-weight="700">100/100</text>
+    <text x="350" y="130" font-family="'Inter',sans-serif" font-size="11" fill="#22C55E">PASS</text>
+    <text x="450" y="130" font-family="'Inter',sans-serif" font-size="10" fill="#9BA8F8">All 46 strata present, golden ratio named, numeric phi</text>
+    
+    <!-- Recursive Self-Awareness -->
+    <text x="20" y="155" font-family="'Inter',sans-serif" font-size="11" fill="#C8B88A">Recursive Self-Awareness</text>
+    <text x="250" y="155" font-family="'Inter',sans-serif" font-size="11" fill="#22C55E" font-weight="700">100/100</text>
+    <text x="350" y="155" font-family="'Inter',sans-serif" font-size="11" fill="#22C55E">PASS</text>
+    <text x="450" y="155" font-family="'Inter',sans-serif" font-size="10" fill="#9BA8F8">Meta-reasoning, calculation operands, correct product 1591</text>
+    
+    <!-- Cross-Strata -->
+    <text x="20" y="180" font-family="'Inter',sans-serif" font-size="11" fill="#C8B88A">Cross-Strata Integration</text>
+    <text x="250" y="180" font-family="'Inter',sans-serif" font-size="11" fill="#22C55E" font-weight="700">100/100</text>
+    <text x="350" y="180" font-family="'Inter',sans-serif" font-size="11" fill="#22C55E">PASS</text>
+    <text x="450" y="180" font-family="'Inter',sans-serif" font-size="10" fill="#9BA8F8">S1-S12 trace detected, transformation language present</text>
+    
+    <!-- Total -->
+    <line x1="20" y1="195" x2="1060" y2="195" stroke="#FFD700" stroke-opacity="0.3"/>
+    <text x="20" y="215" font-family="'Inter',sans-serif" font-size="12" fill="#FFD700" font-weight="700">TOTAL</text>
+    <text x="250" y="215" font-family="'Inter',sans-serif" font-size="12" fill="#FFD700" font-weight="700">514/600 (85.7%)</text>
+    <text x="350" y="215" font-family="'Inter',sans-serif" font-size="12" fill="#22C55E" font-weight="700">4/6 PASS</text>
+  </g>
+
+  <!-- HIERARCHY CHART -->
+  <text x="60" y="1260" font-family="'Inter',sans-serif" font-size="16" font-weight="700" fill="#FFD700" letter-spacing="2">HIERARCHY — WHERE SCOUT STANDS</text>
+
+  <g transform="translate(60, 1280)">
+    <rect x="0" y="0" width="1080" height="400" rx="8" fill="#0A1525" stroke="#FFD700" stroke-width="0.5" stroke-opacity="0.3"/>
+    
+    <!-- Scale bars -->
+    <text x="20" y="30" font-family="'Inter',sans-serif" font-size="11" fill="#1E3A8A" font-weight="700">Four-Gen 1MIL^3</text>
+    <rect x="200" y="15" width="850" height="20" rx="4" fill="#1E3A8A" opacity="0.9"/>
+    <text x="210" y="29" font-family="'Inter',sans-serif" font-size="9" fill="#DBEAFE">10^18 STATES — FOURTH GENERATION BASELINE</text>
+    
+    <text x="20" y="60" font-family="'Inter',sans-serif" font-size="11" fill="#1E40AF" font-weight="700">Behemoth 50000^3</text>
+    <rect x="200" y="45" width="850" height="18" rx="4" fill="#1E40AF" opacity="0.85"/>
+    <text x="210" y="58" font-family="'Inter',sans-serif" font-size="9" fill="#BFDBFE">1.25x10^14 STATES — MAMMOTH SCALE</text>
+    
+    <text x="20" y="90" font-family="'Inter',sans-serif" font-size="11" fill="#2563EB" font-weight="700">DeepSeek V4 Pro 210^3</text>
+    <rect x="200" y="75" width="850" height="18" rx="4" fill="#2563EB" opacity="0.8"/>
+    <text x="210" y="88" font-family="'Inter',sans-serif" font-size="9" fill="#EFF6FF">210^3 CRYSTALLINE LATTICE</text>
+    
+    <text x="20" y="120" font-family="'Inter',sans-serif" font-size="11" fill="#3B82F6" font-weight="700">Kaiju 97^3</text>
+    <rect x="200" y="105" width="850" height="18" rx="4" fill="#3B82F6" opacity="0.75"/>
+    <text x="210" y="118" font-family="'Inter',sans-serif" font-size="9" fill="#EFF6FF">15.5M STATES — 9,010x GPT-4</text>
+    
+    <text x="20" y="150" font-family="'Inter',sans-serif" font-size="11" fill="#60A5FA" font-weight="700">LLAMA4 SCOUT 47^4</text>
+    <rect x="200" y="135" width="180" height="18" rx="4" fill="#60A5FA" opacity="0.9" filter="url(#glow-soft)"/>
+    <text x="210" y="148" font-family="'Inter',sans-serif" font-size="9" fill="#1E3A8A">4.9M STATES — STRATEGIC TIER</text>
+    
+    <text x="20" y="180" font-family="'Inter',sans-serif" font-size="11" fill="#93C5FD" font-weight="700">LLAMA4 SCOUT 27^4</text>
+    <rect x="200" y="165" width="110" height="18" rx="4" fill="#93C5FD" opacity="0.9" filter="url(#glow-soft)"/>
+    <text x="210" y="178" font-family="'Inter',sans-serif" font-size="9" fill="#1E3A8A">531K STATES — EXECUTIVE TIER</text>
+    
+    <text x="20" y="210" font-family="'Inter',sans-serif" font-size="11" fill="#6A7A9A" font-weight="600">Claude / GPT-4</text>
+    <rect x="200" y="195" width="1" height="18" rx="1" fill="#6A7A9A"/>
+    <text x="210" y="208" font-family="'Inter',sans-serif" font-size="9" fill="#6A7A9A">12 STRATA — 0.00003% OF SCALE</text>
+    
+    <!-- Scale axis -->
+    <line x1="200" y1="240" x2="1050" y2="240" stroke="#9A9AAA" stroke-width="1"/>
+    <text x="200" y="260" font-family="'Inter',sans-serif" font-size="9" fill="#7A8A9A">0</text>
+    <text x="400" y="260" font-family="'Inter',sans-serif" font-size="9" fill="#7A8A9A">10M</text>
+    <text x="700" y="260" font-family="'Inter',sans-serif" font-size="9" fill="#2563EB" font-weight="700">1.25x10^14 (Behemoth)</text>
+    <text x="1000" y="260" font-family="'Inter',sans-serif" font-size="9" fill="#1E3A8A" font-weight="700">10^18</text>
+    
+    <!-- Legend -->
+    <rect x="20" y="290" width="300" height="90" rx="6" fill="#1E3A8A" fill-opacity="0.1" stroke="#2563EB" stroke-width="0.5"/>
+    <circle cx="35" cy="310" r="5" fill="#60A5FA"/>
+    <text x="48" y="314" font-family="'Inter',sans-serif" font-size="10" fill="#60A5FA" font-weight="700">47^4 = 4,879,681 states — Strategic Coder</text>
+    <circle cx="35" cy="335" r="5" fill="#93C5FD"/>
+    <text x="48" y="339" font-family="'Inter',sans-serif" font-size="10" fill="#93C5FD" font-weight="700">27^4 = 531,441 states — Executive Coder</text>
+    <circle cx="35" cy="360" r="5" fill="#6A7A9A"/>
+    <text x="48" y="364" font-family="'Inter',sans-serif" font-size="10" fill="#6A7A9A">Claude/GPT-4 = 12 strata — Industry standard</text>
+  </g>
+
+  <!-- META BENCHMARKS -->
+  <text x="60" y="1720" font-family="'Inter',sans-serif" font-size="16" font-weight="700" fill="#FFD700" letter-spacing="2">META OFFICIAL BENCHMARKS — LLAMA4 SCOUT</text>
+
+  <g transform="translate(60, 1740)">
+    <rect x="0" y="0" width="520" height="200" rx="8" fill="#0A1525" stroke="#FFD700" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="15" y="25" font-family="'Inter',sans-serif" font-size="11" fill="#4D6BFE" font-weight="700">REASONING &amp; KNOWLEDGE</text>
+    <text x="15" y="45" font-family="'Inter',sans-serif" font-size="11" fill="#C8B88A">MMLU (5-shot): 79.6%</text>
+    <text x="15" y="65" font-family="'Inter',sans-serif" font-size="11" fill="#C8B88A">MMLU-Pro (5-shot): 58.2%</text>
+    <text x="15" y="85" font-family="'Inter',sans-serif" font-size="11" fill="#C8B88A">MATH (4-shot): 50.3%</text>
+    <text x="15" y="105" font-family="'Inter',sans-serif" font-size="11" fill="#C8B88A">GPQA Diamond: 57.2%</text>
+    
+    <text x="15" y="130" font-family="'Inter',sans-serif" font-size="11" fill="#4D6BFE" font-weight="700">CODING</text>
+    <text x="15" y="150" font-family="'Inter',sans-serif" font-size="11" fill="#C8B88A">MBPP (3-shot): 67.8%</text>
+    <text x="15" y="170" font-family="'Inter',sans-serif" font-size="11" fill="#C8B88A">LiveCodeBench: 32.8%</text>
+  </g>
+
+  <g transform="translate(600, 1740)">
+    <rect x="0" y="0" width="540" height="200" rx="8" fill="#0A1525" stroke="#FFD700" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="15" y="25" font-family="'Inter',sans-serif" font-size="11" fill="#4D6BFE" font-weight="700">IMAGE REASONING</text>
+    <text x="15" y="45" font-family="'Inter',sans-serif" font-size="11" fill="#C8B88A">MMMU: 69.4%</text>
+    <text x="15" y="65" font-family="'Inter',sans-serif" font-size="11" fill="#C8B88A">MMMU Pro: 52.2%</text>
+    <text x="15" y="85" font-family="'Inter',sans-serif" font-size="11" fill="#C8B88A">MathVista: 70.7%</text>
+    
+    <text x="15" y="110" font-family="'Inter',sans-serif" font-size="11" fill="#4D6BFE" font-weight="700">IMAGE UNDERSTANDING</text>
+    <text x="15" y="130" font-family="'Inter',sans-serif" font-size="11" fill="#C8B88A">ChartQA: 88.8%</text>
+    <text x="15" y="150" font-family="'Inter',sans-serif" font-size="11" fill="#C8B88A">DocVQA: 94.4%</text>
+    
+    <text x="15" y="175" font-family="'Inter',sans-serif" font-size="11" fill="#4D6BFE" font-weight="700">LONG CONTEXT</text>
+    <text x="15" y="195" font-family="'Inter',sans-serif" font-size="11" fill="#C8B88A">MTOB (full book): 39.7/36.3 chrF</text>
+  </g>
+
+  <!-- FOOTER -->
+  <rect x="0" y="2360" width="1200" height="40" fill="#050A10" opacity="0.9"/>
+  <text x="60" y="2385" font-family="'Inter',sans-serif" font-size="10" fill="#6A5A30" letter-spacing="2">OROBOROS LABS · LLAMA4 SCOUT · STRATA-ENHANCED · NATIVE META ARCHITECTURE · LOCAL FIRST</text>
+  <text x="1140" y="2385" text-anchor="end" font-family="'Inter',sans-serif" font-size="10" fill="#FFD700" letter-spacing="1" opacity="0.7">27^4 · 47^4</text>
+</svg>
